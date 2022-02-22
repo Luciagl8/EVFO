@@ -17,6 +17,8 @@ mailT=[]
 snortT=[]
 errorT=[]
 
+all=[]
+
 def dateorder(file):
     c = 0
     recordlist=[]
@@ -25,7 +27,7 @@ def dateorder(file):
     first = True
     ### First log
     if file == 1:
-        f = open('./logFiles/snortsyslog', 'r')
+        f = open('./logFiles/snortsyslog')
         for linea in f:
             #original_log = f.read()
             #date_string = '2005 ' + original_log[:original_log.find('bastion')-1]
@@ -88,6 +90,10 @@ def dateorder(file):
                     timelist.append(lista)
                     recordlist.append(epochDate)
 
+            #########Logs para el fichero comun
+            lista2=[epochDate, "access_log", linea[:linea.find('[')]+linea[linea.find(']')-1:]]
+            all.append(lista2)
+
         timeSort = sorted(timelist, key= lambda time : time[0])
         global accessT
         accessT = timeSort
@@ -123,6 +129,10 @@ def dateorder(file):
                     timelist.append(lista)
                     recordlist.append(epochDate)
 
+            #########Logs para el fichero comun
+            lista2=[epochDate, "mail_log", linea[linea.find('combo'):]]
+            all.append(lista2)
+
         timeSort = sorted(timelist, key= lambda time : time[0])
         global mailT
         mailT = timeSort
@@ -156,9 +166,22 @@ def dateorder(file):
                     timelist.append(lista)
                     recordlist.append(epochDate)
 
+            
+            #########Logs para el fichero comun
+            lista2=[epochDate, "error_log", linea[linea.find('] [')+2:]]
+            all.append(lista2)
+
         timeSort = sorted(timelist, key= lambda time : time[0])
         global errorT
         errorT = timeSort
+
+    #######Escribimos el fichero con todos los logs ordenados
+    s = open("ficheroAllLogs", "w")
+    allSorted = sorted(all, key= lambda time : time[0])
+    for i in range(0, len(all)):
+        s.write(str(allSorted[i])+"\n")
+    s.close()
+
 
 
 #Graficas individuales
@@ -252,8 +275,8 @@ dateorder(4)
 dateorder(2)
 dateorder(3)
 
-drawgraphictime("access_log", accessT)
-drawgraphictime("mail_log", mailT)
-drawgraphictime("error_log", errorT)
+#drawgraphictime("access_log", accessT)
+#drawgraphictime("mail_log", mailT)
+#drawgraphictime("error_log", errorT)
 
-drawgrafictimetotal(accessT,mailT,errorT)
+#drawgrafictimetotal(accessT,mailT,errorT)
