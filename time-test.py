@@ -91,7 +91,7 @@ def dateorder(file):
                     recordlist.append(epochDate)
 
             #########Logs para el fichero comun
-            lista2=[epochDate, "access_log", linea[:linea.find('[')]+linea[linea.find(']')-1:]]
+            lista2=[epochDate, "access_log", linea[:linea.find('[')]+linea[linea.find(']')+1:]]
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
@@ -275,8 +275,8 @@ dateorder(4)
 dateorder(2)
 dateorder(3)
 
-#drawgraphictime("access_log", accessT)
-#drawgraphictime("mail_log", mailT)
-#drawgraphictime("error_log", errorT)
+drawgraphictime("access_log", accessT)
+drawgraphictime("mail_log", mailT)
+drawgraphictime("error_log", errorT)
 
-#drawgrafictimetotal(accessT,mailT,errorT)
+drawgrafictimetotal(accessT,mailT,errorT)
