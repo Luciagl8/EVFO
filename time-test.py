@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #Variable para definir los segundos en los que se van a agrupar los ficheros
-step=43200
+step=3600
 
 access=[]
 mail=[]
@@ -54,7 +54,7 @@ def dateorder(file):
                     recordlist.append(epochDate)
 
             #########Logs para el fichero comun
-            lista2=[epochDate, "access_log", linea[:linea.find('[')]+linea[linea.find(']')+1:]]
+            lista2=[epochDate, "access_log", linea[:linea.find('[')]+linea[linea.find(']')+1:-1]]
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
@@ -93,7 +93,7 @@ def dateorder(file):
                     recordlist.append(epochDate)
 
             #########Logs para el fichero comun
-            lista2=[epochDate, "mail_log", linea[linea.find('combo'):]]
+            lista2=[epochDate, "mail_log", linea[linea.find('combo'):-1]]
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
@@ -131,7 +131,7 @@ def dateorder(file):
 
             
             #########Logs para el fichero comun
-            lista2=[epochDate, "error_log", linea[linea.find('] [')+2:]]
+            lista2=[epochDate, "error_log", linea[linea.find('] [')+2:-1]]
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
