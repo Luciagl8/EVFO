@@ -3,6 +3,7 @@ from datetime import datetime
 import calendar
 import matplotlib.pyplot as plt
 import numpy as np
+import re
 
 #Variable para definir los segundos en los que se van a agrupar los ficheros
 step=3600
@@ -52,9 +53,16 @@ def dateorder(file):
                     lista=[epochDate, 1]
                     timelist.append(lista)
                     recordlist.append(epochDate)
+            
+            # Get ip (if contains) from each log 
+            ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
+            if len(ip_list) > 0:
+                ip = ip_list[0]
+            else:
+                ip = '-'
 
             #########Logs para el fichero comun
-            lista2=[epochDate, "access_log", linea[:linea.find('[')]+linea[linea.find(']')+1:-1]]
+            lista2=[epochDate, "access_log", ip, linea[:linea.find('[')]+linea[linea.find(']')+1:-1]]
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
@@ -92,8 +100,15 @@ def dateorder(file):
                     timelist.append(lista)
                     recordlist.append(epochDate)
 
+            # Get ip (if contains) from each log 
+            ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
+            if len(ip_list) > 0:
+                ip = ip_list[0]
+            else:
+                ip = '-'
+
             #########Logs para el fichero comun
-            lista2=[epochDate, "mail_log", linea[linea.find('combo'):-1]]
+            lista2=[epochDate, "mail_log", ip, linea[linea.find('combo'):-1]]
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
@@ -129,9 +144,15 @@ def dateorder(file):
                     timelist.append(lista)
                     recordlist.append(epochDate)
 
-            
+            # Get ip (if contains) from each log 
+            ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
+            if len(ip_list) > 0:
+                ip = ip_list[0]
+            else:
+                ip = '-'
+
             #########Logs para el fichero comun
-            lista2=[epochDate, "error_log", linea[linea.find('] [')+2:-1]]
+            lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]]
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
@@ -158,7 +179,8 @@ def drawgraphictime(sensor, timearray):
 	plt.bar(positionx,value,align="center")
 	#Etiquetas xlabel
 	plt.xticks(positionx,hours)
-	plt.xticks(rotation=90)
+	#plt.xticks()
+    plt.xticks(rotation=90)
 	plt.xlabel("Date")
 	plt.ylabel("Number of records")
 	plt.title(sensor +" time")
