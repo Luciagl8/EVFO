@@ -16,14 +16,20 @@ accessT=[]
 mailT=[]
 errorT=[]
 
+accessIP=[]
+mailIP=[]
+errorIP=[]
+
 all=[]
 
 def dateorder(file):
-    c = 0
     recordlist=[]
     timelist=[]
-    ind = 0
     first = True
+
+    iplist=[]
+    listlist=[]
+    first1 = True
 
     ### First log
     if file == 1:
@@ -58,6 +64,21 @@ def dateorder(file):
             ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
             if len(ip_list) > 0:
                 ip = ip_list[0]
+                #Para realizar las gráficas de IP
+                val=[epochDate, ip]
+                if first1:
+                    lista=[epochDate, ip, 1]
+                    iplist.append(lista)
+                    listlist.append(val)
+                    first1=False
+                else:
+                    if val in listlist:
+                        ind = listlist.index(val)
+                        iplist[ind][2]=iplist[ind][2]+1
+                    else:
+                        lista=[epochDate, ip, 1]
+                        iplist.append(lista)
+                        listlist.append(val)
             else:
                 ip = '-'
 
@@ -66,8 +87,11 @@ def dateorder(file):
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
+        timeSort2 = sorted(iplist, key= lambda time : time[0])
         global accessT
+        global accessIP
         accessT = timeSort
+        accessIP = timeSort2
 
 
     ### Second log
@@ -104,6 +128,21 @@ def dateorder(file):
             ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
             if len(ip_list) > 0:
                 ip = ip_list[0]
+                #Para realizar las gráficas de IP
+                val=[epochDate, ip]
+                if first1:
+                    lista=[epochDate, ip, 1]
+                    iplist.append(lista)
+                    listlist.append(val)
+                    first1=False
+                else:
+                    if val in listlist:
+                        ind = listlist.index(val)
+                        iplist[ind][2]=iplist[ind][2]+1
+                    else:
+                        lista=[epochDate, ip, 1]
+                        iplist.append(lista)
+                        listlist.append(val)
             else:
                 ip = '-'
 
@@ -112,8 +151,11 @@ def dateorder(file):
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
+        timeSort2 = sorted(iplist, key= lambda time : time[0])
         global mailT
+        global mailIP
         mailT = timeSort
+        mailIP = timeSort2
     
     ### Third log
     if file == 3:
@@ -148,6 +190,21 @@ def dateorder(file):
             ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
             if len(ip_list) > 0:
                 ip = ip_list[0]
+                #Para realizar las gráficas de IP
+                val=[epochDate, ip]
+                if first1:
+                    lista=[epochDate, ip, 1]
+                    iplist.append(lista)
+                    listlist.append(val)
+                    first1=False
+                else:
+                    if val in listlist:
+                        ind = listlist.index(val)
+                        iplist[ind][2]=iplist[ind][2]+1
+                    else:
+                        lista=[epochDate, ip, 1]
+                        iplist.append(lista)
+                        listlist.append(val)
             else:
                 ip = '-'
 
@@ -156,8 +213,11 @@ def dateorder(file):
             all.append(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
+        timeSort2 = sorted(iplist, key= lambda time : time[0])
         global errorT
+        global errorIP
         errorT = timeSort
+        errorIP = timeSort2
 
 #Escribe el fichero con todos los logs ordenados (hay que llamar antes a dateorder con cada fichero)
 def writefile():
@@ -169,23 +229,23 @@ def writefile():
 
 #Graficas individuales
 def drawgraphictime(sensor, timearray):
-	hours=[]
-	value=[]
-	plt.figure(sensor)
-	for i in range(0,len(timearray)):
-		hours.append(timearray[i][0])
-		value.append(timearray[i][1])
-	positionx =np.arange(len(hours))
-	plt.bar(positionx,value,align="center")
-	#Etiquetas xlabel
-	plt.xticks(positionx,hours)
-	#plt.xticks()
+    hours=[]
+    value=[]
+    plt.figure(sensor)
+    for i in range(0,len(timearray)):
+        hours.append(timearray[i][0])
+        value.append(timearray[i][1])
+    positionx =np.arange(len(hours))
+    plt.bar(positionx,value,align="center")
+    #Etiquetas xlabel
+    plt.xticks(positionx,hours)
+    #plt.xticks()
     plt.xticks(rotation=90)
-	plt.xlabel("Date")
-	plt.ylabel("Number of records")
-	plt.title(sensor +" time")
-	plt.savefig(sensor +"T.png", bbox_inches="tight", pad_inches = 0.3)
-	plt.close()
+    plt.xlabel("Date")
+    plt.ylabel("Number of records")
+    plt.title(sensor +" time")
+    plt.savefig(sensor +"T.png", bbox_inches="tight", pad_inches = 0.3)
+    plt.close()
 
 #Grafica global
 def drawgrafictimetotal(access_log, mail_log, error_log):
@@ -254,6 +314,66 @@ def drawgrafictimetotal(access_log, mail_log, error_log):
 	plt.savefig(str(step)+"sTotalTime.png", bbox_inches="tight", pad_inches = 0.3)
 	plt.close()
 
+#Dibuja las gráficas de las IP
+def drawgraphicip(logType, timearray):
+	hours=[]
+	freq=[]
+	value=[]
+	ip =[]
+	val=[]
+	plt.figure(logType)
+	plt.subplot(211)
+	plt.figure(logType).subplots_adjust(hspace=1.5)
+	for i in range(0,len(timearray)):
+		if int(timearray[i][2])>=3:
+			if timearray[i][0] not in hours:
+				hours.append(int(timearray[i][0]))
+				lista =[timearray[i][0],1]
+				freq.append(lista)
+			else:
+				ind = hours.index(timearray[i][0])
+				freq[ind][1]=freq[ind][1]+1
+	for i in range(0,len(freq)):
+		value.append(freq[i][1])
+	contador = len(hours)
+	contpop = 0
+	for i in range(0, len(hours)):
+		if i < contador :
+			contpop = 0
+			for y in range(0,len(hours)) :
+				if y < contador+contpop  and y>=i :
+					if hours[i]+0 >= hours[y - contpop] and hours[y - contpop]!=hours[i] :
+						hours.pop(y - contpop)
+						value[i]=value[i]+value[y - contpop]
+						value.pop(y - contpop)
+						contador = len(hours)
+						contpop = contpop + 1
+
+	positionx =np.arange(len(hours))
+	plt.bar(positionx,value,align="center")
+	#Etiquetas xlabel
+	plt.xticks(positionx,hours)
+	plt.xticks(rotation=90)
+	plt.xlabel("Date")
+	plt.ylabel("Number of IP")
+	plt.title(logType +" , number of IPs that appears 3 or more times in the same sec")
+
+	plt.subplot(212)
+	for i in range(0,len(timearray)):
+		if int(timearray[i][2])>=3:
+			ip.append(timearray[i][1])
+			val.append(timearray[i][2])
+	positionx =np.arange(len(ip))
+	plt.bar(positionx,val,align="center")
+	#Etiquetas xlabel
+	plt.xticks(positionx,ip)
+	plt.xticks(rotation=90)
+	plt.xlabel("IP")
+	plt.ylabel("Number of records")
+
+	plt.savefig(logType +"ip.png", bbox_inches="tight", pad_inches = 0.3)
+	plt.close()
+
 #Functions to call
 dateorder(1)
 dateorder(2)
@@ -263,5 +383,9 @@ writefile()
 drawgraphictime("access_log", accessT)
 drawgraphictime("mail_log", mailT)
 drawgraphictime("error_log", errorT)
+
+drawgraphicip("access_log", accessIP)
+drawgraphicip("mail_log", mailIP)
+drawgraphicip("error_log", errorIP)
 
 drawgrafictimetotal(accessT,mailT,errorT)
