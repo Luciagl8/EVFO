@@ -4,6 +4,8 @@ import calendar
 import matplotlib.pyplot as plt
 import numpy as np
 import re
+import csv
+import pandas as pd
 
 #Variable para definir los segundos en los que se van a agrupar los ficheros
 step=3600
@@ -21,6 +23,18 @@ mailIP=[]
 errorIP=[]
 
 all=[]
+
+
+### Salida CSV ###
+
+
+# open the file in the write mode
+f = open('ficheroALlLogs.csv', 'w')
+# create the csv writer
+writer = csv.writer(f)
+##################
+
+
 
 def dateorder(file):
     recordlist=[]
@@ -83,8 +97,12 @@ def dateorder(file):
                 ip = '-'
 
             #########Logs para el fichero comun
-            lista2=[epochDate, "access_log", ip, linea[:linea.find('[')]+linea[linea.find(']')+1:-1]]
+            lista2=[epochDate, "access_log", ip, linea[linea.find(']')+1:-1]]
+           
             all.append(lista2)
+            # write a row to the csv file
+            writer.writerow(lista2)
+
 
         timeSort = sorted(timelist, key= lambda time : time[0])
         timeSort2 = sorted(iplist, key= lambda time : time[0])
@@ -149,6 +167,8 @@ def dateorder(file):
             #########Logs para el fichero comun
             lista2=[epochDate, "mail_log", ip, linea[linea.find('combo'):-1]]
             all.append(lista2)
+            # write a row to the csv file
+            writer.writerow(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
         timeSort2 = sorted(iplist, key= lambda time : time[0])
@@ -209,8 +229,16 @@ def dateorder(file):
                 ip = '-'
 
             #########Logs para el fichero comun
-            lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]]
+            #lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
+            try:
+                linea_aux = linea.split('[client')[1]
+                linea_aux= linea_aux.split(']')[1]
+                lista2=[epochDate, "error_log", ip, "[error]" + linea_aux  ]
+            except: 
+                lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
             all.append(lista2)
+            # write a row to the csv file
+            writer.writerow(lista2)
 
         timeSort = sorted(timelist, key= lambda time : time[0])
         timeSort2 = sorted(iplist, key= lambda time : time[0])
@@ -389,3 +417,15 @@ drawgraphicip("mail_log", mailIP)
 drawgraphicip("error_log", errorIP)
 
 drawgrafictimetotal(accessT,mailT,errorT)
+
+# close the file
+f.close()
+
+df = pd.read_csv('ficheroALlLogs.csv', header=None, names=["Epoch Date", "Log Type", "IP Adress", "Log"])
+
+f2 = open("ResultadoFinal.txt", "w")
+f2.write(str(df))
+f2.close()
+
+f.close()
+#print(df)
