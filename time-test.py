@@ -6,9 +6,13 @@ import numpy as np
 import re
 import csv
 import pandas as pd
+import sys
 
 #Variable para definir los segundos en los que se van a agrupar los ficheros
-step=3600
+if len(sys.argv) > 1:
+    step = int(sys.argv[1])
+else:
+    step=3600
 
 access=[]
 mail=[]
