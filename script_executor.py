@@ -36,7 +36,7 @@ def cargar_total_time(segundos):
     # Si no lo están, las generamos
 
     ## Ejecutamos el script que genera las gráficas
-    os.system('python3 time-test.py {}'.format(segundos))
+    os.system('./time-test.py {}'.format(segundos))
     
     # Tenemos un temporizador que si en 25 segundos no se ha generado la gráfica, se pide que se vuelva a hacer.
     timer = 0
@@ -72,7 +72,7 @@ def cargar_mail_ip():
     # Si no lo están, las generamos
 
     ## Ejecutamos el script que genera las gráficas
-    os.system('python3 time-test.py')
+    os.system('./time-test.py')
     
     # Tenemos un temporizador que si en 25 segundos no se ha generado la gráfica, se pide que se vuelva a hacer.
     timer = 0
@@ -109,7 +109,7 @@ def cargar_access_ip():
     # Si no lo están, las generamos
 
     ## Ejecutamos el script que genera las gráficas
-    os.system('python3 time-test.py')
+    os.system('./time-test.py')
     
     # Tenemos un temporizador que si en 25 segundos no se ha generado la gráfica, se pide que se vuelva a hacer.
     timer = 0
