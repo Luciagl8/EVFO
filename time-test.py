@@ -423,9 +423,12 @@ f.close()
 
 df = pd.read_csv('ficheroALlLogs.csv', header=None, names=["Epoch Date", "Log Type", "IP Adress", "Log"])
 
+"""
 f2 = open("ResultadoFinal.txt", "w")
 f2.write(str(df))
 f2.close()
+"""
 
+df.to_csv('out.csv') #fichero final.  
 f.close()
 #print(df)

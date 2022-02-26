@@ -1,0 +1,977 @@
+,Epoch Date,Log Type,IP Adress,Log
+0,1110686747,access_log,210.116.59.164," ""POST /_vti_bin/_vti_aut/fp30reg.dll HTTP/1.1"" 404 1063 ""-"" ""-"""
+1,1110686792,access_log,210.116.59.164," ""POST /_vti_bin/_vti_aut/fp30reg.dll HTTP/1.1"" 404 1063 ""-"" ""-"""
+2,1110686839,access_log,210.116.59.164," ""POST /_vti_bin/_vti_aut/fp30reg.dll HTTP/1.1"" 404 1063 ""-"" ""-"""
+3,1110686891,access_log,210.116.59.164," ""POST /_vti_bin/_vti_aut/fp30reg.dll HTTP/1.1"" 404 1063 ""-"" ""-"""
+4,1110686940,access_log,210.116.59.164," ""POST /_vti_bin/_vti_aut/fp30reg.dll HTTP/1.1"" 404 1063 ""-"" ""-"""
+5,1110687018,access_log,211.141.115.145," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+6,1110701007,access_log,66.30.71.74," ""GET /scripts/nsiislog.dll HTTP/1.1"" 404 1050 ""-"" ""-"""
+7,1110710171,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+8,1110710171,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+9,1110710171,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+10,1110710171,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+11,1110710171,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+12,1110710171,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+13,1110710171,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+14,1110710172,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+15,1110710172,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+16,1110710172,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+17,1110710172,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+18,1110710172,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+19,1110710172,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+20,1110710173,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+21,1110710173,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+22,1110710173,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+23,1110710173,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+24,1110710174,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+25,1110710174,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+26,1110710174,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+27,1110710174,access_log,218.1.111.50," ""GET http://www.yahoo.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)"""
+28,1110712918,access_log,66.131.126.31," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+29,1110714119,access_log,69.158.7.209," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+30,1110719133,access_log,213.129.21.137," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+31,1110721694,access_log,24.23.244.160," ""GET /scripts/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+32,1110721696,access_log,24.23.244.160," ""GET /MSADC/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+33,1110721698,access_log,24.23.244.160," ""GET /c/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+34,1110721700,access_log,24.23.244.160," ""GET /d/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+35,1110721702,access_log,24.23.244.160," ""GET /scripts/..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+36,1110721704,access_log,24.23.244.160," ""GET /_vti_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+37,1110721706,access_log,24.23.244.160," ""GET /_mem_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+38,1110721708,access_log,24.23.244.160," ""GET /msadc/..%255c../..%255c../..%255c/..%c1%1c../..%c1%1c../..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+39,1110721709,access_log,24.23.244.160," ""GET /scripts/..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+40,1110721711,access_log,24.23.244.160," ""GET /scripts/..%c0%2f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+41,1110721712,access_log,24.23.244.160," ""GET /scripts/..%c0%af../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+42,1110721715,access_log,24.23.244.160," ""GET /scripts/..%c1%9c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+43,1110721716,access_log,24.23.244.160," ""GET /scripts/..%%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+44,1110721718,access_log,24.23.244.160," ""GET /scripts/..%%35c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+45,1110721720,access_log,24.23.244.160," ""GET /scripts/..%25%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+46,1110721722,access_log,24.23.244.160," ""GET /scripts/..%252f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+47,1110726164,access_log,24.130.169.87," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+48,1110729667,access_log,221.237.66.208," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+49,1110735346,access_log,208.46.133.177," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+50,1110737151,access_log,218.88.202.208," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+51,1110738445,access_log,219.186.156.26," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+52,1110744972,access_log,65.202.33.226," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+53,1110749098,access_log,208.39.169.124," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+54,1110751905,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+55,1110751905,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+56,1110751905,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+57,1110751906,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+58,1110751906,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+59,1110751906,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+60,1110751906,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+61,1110751906,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+62,1110751906,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+63,1110751906,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+64,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+65,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+66,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+67,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+68,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+69,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+70,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+71,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+72,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+73,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+74,1110751907,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+75,1110751908,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+76,1110751908,access_log,220.110.29.27," ""GET / HTTP/1.1"" 400 308 ""-"" ""-"""
+77,1110753511,access_log,61.205.6.71," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+78,1110758852,access_log,68.191.137.235," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+79,1110768521,access_log,157.91.44.1," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+80,1110773466,access_log,209.213.220.227," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+81,1110775614,access_log,218.201.121.99," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+82,1110783205,access_log,222.166.160.63," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+83,1110789835,access_log,66.21.127.198," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+84,1110796823,access_log,24.185.27.145," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+85,1110798760,access_log,69.246.7.31," ""GET /scripts/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+86,1110798760,access_log,69.246.7.31," ""GET /MSADC/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+87,1110798760,access_log,69.246.7.31," ""GET /c/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+88,1110798761,access_log,69.246.7.31," ""GET /d/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+89,1110798761,access_log,69.246.7.31," ""GET /scripts/..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+90,1110798761,access_log,69.246.7.31," ""GET /_vti_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+91,1110798762,access_log,69.246.7.31," ""GET /_mem_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+92,1110798762,access_log,69.246.7.31," ""GET /msadc/..%255c../..%255c../..%255c/..%c1%1c../..%c1%1c../..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+93,1110798762,access_log,69.246.7.31," ""GET /scripts/..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+94,1110798762,access_log,69.246.7.31," ""GET /scripts/..%c0%2f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+95,1110798762,access_log,69.246.7.31," ""GET /scripts/..%c0%af../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+96,1110798763,access_log,69.246.7.31," ""GET /scripts/..%c1%9c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+97,1110798763,access_log,69.246.7.31," ""GET /scripts/..%%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+98,1110798763,access_log,69.246.7.31," ""GET /scripts/..%%35c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+99,1110798763,access_log,69.246.7.31," ""GET /scripts/..%25%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+100,1110798763,access_log,69.246.7.31," ""GET /scripts/..%252f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+101,1110809436,access_log,67.170.0.153," ""GET /scripts/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+102,1110809437,access_log,67.170.0.153," ""GET /MSADC/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+103,1110809437,access_log,67.170.0.153," ""GET /c/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+104,1110809437,access_log,67.170.0.153," ""GET /d/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+105,1110809438,access_log,67.170.0.153," ""GET /scripts/..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+106,1110809441,access_log,67.170.0.153," ""GET /_vti_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+107,1110809442,access_log,67.170.0.153," ""GET /_mem_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+108,1110809442,access_log,67.170.0.153," ""GET /msadc/..%255c../..%255c../..%255c/..%c1%1c../..%c1%1c../..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+109,1110809443,access_log,67.170.0.153," ""GET /scripts/..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+110,1110809443,access_log,67.170.0.153," ""GET /scripts/..%c0%2f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+111,1110809443,access_log,67.170.0.153," ""GET /scripts/..%c0%af../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+112,1110809444,access_log,67.170.0.153," ""GET /scripts/..%c1%9c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+113,1110809444,access_log,67.170.0.153," ""GET /scripts/..%%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+114,1110809444,access_log,67.170.0.153," ""GET /scripts/..%%35c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+115,1110809444,access_log,67.170.0.153," ""GET /scripts/..%25%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+116,1110809445,access_log,67.170.0.153," ""GET /scripts/..%252f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+117,1110813217,access_log,222.166.160.3," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+118,1110816072,access_log,61.10.7.140," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+119,1110819867,access_log,61.232.252.176," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+120,1110836931,access_log,219.133.25.250," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+121,1110837042,access_log,139.68.4.4," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+122,1110839736,access_log,204.102.106.103," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+123,1110849888,access_log,61.10.7.68," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+124,1110850112,access_log,67.136.86.162," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+125,1110851183,access_log,157.91.48.191," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+126,1110856839,access_log,67.154.159.190," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+127,1110863209,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+128,1110863209,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+129,1110863210,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+130,1110863210,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+131,1110863211,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+132,1110863212,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1051 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+133,1110863212,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+134,1110863212,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+135,1110863213,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+136,1110863213,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1051 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+137,1110863212,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+138,1110863213,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1051 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+139,1110863212,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1051 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+140,1110863213,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1097 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+141,1110863213,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1051 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+142,1110863212,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1097 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+143,1110863212,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1097 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+144,1110863212,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1097 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+145,1110863213,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1097 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+146,1110863214,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1098 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+147,1110863214,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+148,1110863215,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+149,1110863215,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+150,1110863215,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1098 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+151,1110863215,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+152,1110863216,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1097 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+153,1110863216,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+154,1110863217,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1098 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+155,1110863217,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+156,1110863217,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1097 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+157,1110863218,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1051 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+158,1110863218,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+159,1110863218,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1051 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+160,1110863218,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+161,1110863218,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+162,1110863218,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+163,1110863219,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1051 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+164,1110863219,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+165,1110863219,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+166,1110863219,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+167,1110863219,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+168,1110863219,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+169,1110863219,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+170,1110863220,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+171,1110863220,access_log,81.181.146.13," ""GET //cgi-bin/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 500 1097 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+172,1110863220,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+173,1110863220,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+174,1110863220,access_log,81.181.146.13," ""GET //cgi-bin/awstats/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+175,1110863220,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+176,1110863220,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+177,1110863220,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+178,1110863221,access_log,81.181.146.13," ""GET //cgi/awstats.pl?configdir=|%20id%20| HTTP/1.1"" 404 1050 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+179,1110863221,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+180,1110863222,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+181,1110863224,access_log,81.181.146.13," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)"""
+182,1110868873,access_log,201.9.48.227," ""GET /default.ida?XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX%u9090%u6858%ucbd3%u7801%u9090%u6858%ucbd3%u7801%u9090%u6858%ucbd3%u7801%u9090%u9090%u8190%u00c3%u0003%u8b00%u531b%u53ff%u0078%u0000%u00=a HTTP/1.0"" 404 1061 ""-"" ""-"""
+183,1110873194,access_log,217.204.59.69," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+184,1110885842,access_log,218.6.162.19," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+185,1110899269,access_log,24.11.17.100," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+186,1110913113,access_log,65.96.54.37," ""GET /NULL.printer"" 404 1061 ""-"" ""-"""
+187,1110925233,access_log,195.70.152.248," ""GET /NULL.printer"" 404 1061 ""-"" ""-"""
+188,1110930324,access_log,62.6.139.11," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+189,1110931788,access_log,211.158.94.106," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+190,1110934902,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+191,1110934902,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+192,1110934902,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+193,1110934902,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+194,1110934902,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+195,1110934902,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+196,1110934902,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+197,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+198,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+199,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+200,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+201,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+202,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+203,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+204,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+205,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+206,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+207,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+208,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+209,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+210,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+211,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+212,1110934903,access_log,207.228.251.216," ""GET /sumthin HTTP/1.0"" 404 1061 ""-"" ""-"""
+213,1110941142,access_log,218.11.95.43," ""GET /scripts/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+214,1110941146,access_log,218.11.95.43," ""GET /MSADC/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+215,1110941150,access_log,218.11.95.43," ""GET /c/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+216,1110941154,access_log,218.11.95.43," ""GET /d/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+217,1110941155,access_log,218.11.95.43," ""GET /scripts/..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+218,1110941160,access_log,218.11.95.43," ""GET /_vti_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+219,1110941161,access_log,218.11.95.43," ""GET /_mem_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+220,1110941162,access_log,218.11.95.43," ""GET /msadc/..%255c../..%255c../..%255c/..%c1%1c../..%c1%1c../..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+221,1110951640,access_log,69.67.42.139," ""GET /scripts/nsiislog.dll HTTP/1.1"" 404 1050 ""-"" ""-"""
+222,1110953496,access_log,66.134.74.113," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+223,1110958184,access_log,204.102.106.121," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+224,1110962881,access_log,68.166.35.226," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+225,1110963224,access_log,61.10.7.209," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+226,1110965655,access_log,207.243.156.65," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+227,1110969323,access_log,71.16.50.10," ""GET /scripts/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+228,1110969324,access_log,71.16.50.10," ""GET /MSADC/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+229,1110969324,access_log,71.16.50.10," ""GET /c/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+230,1110969325,access_log,71.16.50.10," ""GET /d/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+231,1110969325,access_log,71.16.50.10," ""GET /scripts/..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+232,1110969325,access_log,71.16.50.10," ""GET /_vti_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+233,1110969326,access_log,71.16.50.10," ""GET /_mem_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+234,1110969326,access_log,71.16.50.10," ""GET /msadc/..%255c../..%255c../..%255c/..%c1%1c../..%c1%1c../..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+235,1110969326,access_log,71.16.50.10," ""GET /scripts/..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+236,1110969327,access_log,71.16.50.10," ""GET /scripts/..%c0%2f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+237,1110969327,access_log,71.16.50.10," ""GET /scripts/..%c0%af../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+238,1110969327,access_log,71.16.50.10," ""GET /scripts/..%c1%9c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+239,1110969327,access_log,71.16.50.10," ""GET /scripts/..%%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+240,1110969328,access_log,71.16.50.10," ""GET /scripts/..%%35c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+241,1110969328,access_log,71.16.50.10," ""GET /scripts/..%25%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+242,1110969328,access_log,71.16.50.10," ""GET /scripts/..%252f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+243,1110976930,access_log,66.171.199.116," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+244,1110979420,access_log,64.83.24.184," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+245,1110980816,access_log,66.30.71.74," ""GET /NULL.printer"" 404 1061 ""-"" ""-"""
+246,1110983346,access_log,208.62.177.10," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+247,1110983368,access_log,209.120.201.177," ""GET /scripts/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+248,1110983369,access_log,209.120.201.177," ""GET /MSADC/root.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+249,1110983371,access_log,209.120.201.177," ""GET /c/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+250,1110983372,access_log,209.120.201.177," ""GET /d/winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+251,1110983373,access_log,209.120.201.177," ""GET /scripts/..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+252,1110983374,access_log,209.120.201.177," ""GET /_vti_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+253,1110983375,access_log,209.120.201.177," ""GET /_mem_bin/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+254,1110983376,access_log,209.120.201.177," ""GET /msadc/..%255c../..%255c../..%255c/..%c1%1c../..%c1%1c../..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+255,1110983378,access_log,209.120.201.177," ""GET /scripts/..%c1%1c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+256,1110983379,access_log,209.120.201.177," ""GET /scripts/..%c0%2f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+257,1110983381,access_log,209.120.201.177," ""GET /scripts/..%c0%af../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+258,1110983382,access_log,209.120.201.177," ""GET /scripts/..%c1%9c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+259,1110983383,access_log,209.120.201.177," ""GET /scripts/..%%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+260,1110983384,access_log,209.120.201.177," ""GET /scripts/..%%35c../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 400 974 ""-"" ""-"""
+261,1110983385,access_log,209.120.201.177," ""GET /scripts/..%25%35%63../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+262,1110983386,access_log,209.120.201.177," ""GET /scripts/..%252f../winnt/system32/cmd.exe?/c+dir HTTP/1.0"" 404 1041 ""-"" ""-"""
+263,1110987905,access_log,65.16.76.54," ""POST /_vti_bin/_vti_aut/fp30reg.dll HTTP/1.1"" 404 1062 ""-"" ""-"""
+264,1110988230,access_log,65.16.76.54," ""POST /_vti_bin/_vti_aut/fp30reg.dll HTTP/1.1"" 404 1062 ""-"" ""-"""
+265,1110997397,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+266,1110997397,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+267,1110997398,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+268,1110997397,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+269,1110997398,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+270,1110997398,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+271,1110997398,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+272,1110997399,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+273,1110997398,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+274,1110997399,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+275,1110997400,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+276,1110997400,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+277,1110997401,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+278,1110997401,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+279,1110997401,access_log,218.85.9.143," ""GET http://www.intel.com/ HTTP/1.1"" 403 2898 ""-"" ""Mozilla/5.0 (compatible; MSIE 5.01; Win2000)"""
+280,1111000130,access_log,67.81.23.243," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+281,1111002115,access_log,202.122.16.7," ""POST /_vti_bin/_vti_aut/fp30reg.dll HTTP/1.1"" 404 1063 ""-"" ""-"""
+282,1111002561,access_log,220.170.151.237," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+283,1111005318,access_log,64.83.24.184," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+284,1111018092,access_log,222.166.160.138," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+285,1111034535,access_log,61.10.7.45," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+286,1111037480,access_log,69.107.121.41," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+287,1111038184,access_log,201.9.104.83," ""GET /default.ida?XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX%u9090%u6858%ucbd3%u7801%u9090%u6858%ucbd3%u7801%u9090%u6858%ucbd3%u7801%u9090%u9090%u8190%u00c3%u0003%u8b00%u531b%u53ff%u0078%u0000%u00=a HTTP/1.0"" 404 1061 ""-"" ""-"""
+288,1111047996,access_log,207.10.54.33," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+289,1111050725,access_log,68.98.176.140," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+290,1111053985,access_log,68.250.190.161," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+291,1111059507,access_log,219.150.244.58," ""GET / HTTP/1.1"" 403 2898 ""-"" ""Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)"""
+292,1110687376,mail_log,-,"combo sendmail[26065]: j2D9FD3X026065: from=root, size=39455, class=0, nrcpts=1, msgid=<200503130915.j2D9FD3X026065@combo.honeypotbox.com>, relay=root@localhost"
+293,1110687394,mail_log,127.0.0.1,"combo sendmail[26067]: j2D9GH6S026067: from=<root@combo.honeypotbox.com>, size=39751, class=0, nrcpts=1, msgid=<200503130915.j2D9FD3X026065@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+294,1110687394,mail_log,127.0.0.1,"combo sendmail[26065]: j2D9FD3X026065: to=root, ctladdr=root (0/0), delay=00:01:21, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2D9GH6S026067 Message accepted for delivery)"
+295,1110687394,mail_log,-,"combo sendmail[26068]: j2D9GH6S026067: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=69989, dsn=2.0.0, stat=Sent"
+296,1110773182,mail_log,-,"combo sendmail[10169]: j2E96MKL010169: from=root, size=1045, class=0, nrcpts=1, msgid=<200503140906.j2E96MKL010169@combo.honeypotbox.com>, relay=root@localhost"
+297,1110773207,mail_log,127.0.0.1,"combo sendmail[10172]: j2E96M6S010172: from=<root@combo.honeypotbox.com>, size=1359, class=0, nrcpts=1, msgid=<200503140906.j2E96MKL010169@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+298,1110773207,mail_log,127.0.0.1,"combo sendmail[10169]: j2E96MKL010169: to=root, ctladdr=root (0/0), delay=00:00:25, xdelay=00:00:25, mailer=relay, pri=30056, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2E96M6S010172 Message accepted for delivery)"
+299,1110773207,mail_log,-,"combo sendmail[10173]: j2E96M6S010172: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31602, dsn=2.0.0, stat=Sent"
+300,1110773897,mail_log,-,"combo sendmail[10384]: j2E9HFPa010384: from=root, size=39406, class=0, nrcpts=1, msgid=<200503140917.j2E9HFPa010384@combo.honeypotbox.com>, relay=root@localhost"
+301,1110773915,mail_log,127.0.0.1,"combo sendmail[10386]: j2E9II6S010386: from=<root@combo.honeypotbox.com>, size=39702, class=0, nrcpts=1, msgid=<200503140917.j2E9HFPa010384@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+302,1110773915,mail_log,127.0.0.1,"combo sendmail[10384]: j2E9HFPa010384: to=root, ctladdr=root (0/0), delay=00:01:20, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2E9II6S010386 Message accepted for delivery)"
+303,1110773916,mail_log,-,"combo sendmail[10387]: j2E9II6S010386: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=69940, dsn=2.0.0, stat=Sent"
+304,1110844066,mail_log,211.158.69.89,combo sendmail[12661]: j2F4lk6S012661: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+305,1110844066,mail_log,211.158.69.89,combo sendmail[12651]: j2F4lk6S012651: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+306,1110844066,mail_log,211.158.69.89,combo sendmail[12652]: j2F4lk6S012652: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+307,1110844066,mail_log,211.158.69.89,combo sendmail[12656]: j2F4lk6S012656: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+308,1110844066,mail_log,211.158.69.89,combo sendmail[12662]: j2F4lk6S012662: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+309,1110844066,mail_log,211.158.69.89,combo sendmail[12644]: j2F4lk6S012644: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+310,1110844066,mail_log,211.158.69.89,combo sendmail[12653]: j2F4lk6S012653: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+311,1110844066,mail_log,211.158.69.89,combo sendmail[12659]: j2F4lk6S012659: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+312,1110844066,mail_log,211.158.69.89,combo sendmail[12650]: j2F4lk6S012650: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+313,1110844066,mail_log,211.158.69.89,combo sendmail[12649]: j2F4lk6S012649: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+314,1110844066,mail_log,211.158.69.89,combo sendmail[12643]: j2F4lk6S012643: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+315,1110844066,mail_log,211.158.69.89,combo sendmail[12645]: j2F4lk6S012645: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+316,1110844066,mail_log,211.158.69.89,combo sendmail[12646]: j2F4lk6S012646: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+317,1110844066,mail_log,211.158.69.89,combo sendmail[12648]: j2F4lk6S012648: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+318,1110844066,mail_log,211.158.69.89,combo sendmail[12658]: j2F4lk6S012658: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+319,1110844066,mail_log,211.158.69.89,combo sendmail[12657]: j2F4lk6S012657: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+320,1110844066,mail_log,211.158.69.89,combo sendmail[12647]: j2F4lk6S012647: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+321,1110844066,mail_log,211.158.69.89,combo sendmail[12660]: j2F4lk6S012660: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+322,1110844066,mail_log,211.158.69.89,combo sendmail[12654]: j2F4lk6S012654: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+323,1110844066,mail_log,211.158.69.89,combo sendmail[12655]: j2F4lk6S012655: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+324,1110844066,mail_log,211.158.69.89,combo sendmail[12663]: j2F4lk6S012663: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+325,1110844066,mail_log,211.158.69.89,combo sendmail[12664]: j2F4lk6S012664: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+326,1110859452,mail_log,-,"combo sendmail[13333]: j2F94C4d013333: from=root, size=1145, class=0, nrcpts=1, msgid=<200503150904.j2F94C4d013333@combo.honeypotbox.com>, relay=root@localhost"
+327,1110859476,mail_log,127.0.0.1,"combo sendmail[13336]: j2F94C6S013336: from=<root@combo.honeypotbox.com>, size=1459, class=0, nrcpts=1, msgid=<200503150904.j2F94C4d013333@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+328,1110859476,mail_log,127.0.0.1,"combo sendmail[13333]: j2F94C4d013333: to=root, ctladdr=root (0/0), delay=00:00:24, xdelay=00:00:24, mailer=relay, pri=30056, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2F94C6S013336 Message accepted for delivery)"
+329,1110859476,mail_log,-,"combo sendmail[13337]: j2F94C6S013336: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31702, dsn=2.0.0, stat=Sent"
+330,1110860148,mail_log,-,"combo sendmail[13548]: j2F9Ei14013548: from=root, size=39406, class=0, nrcpts=1, msgid=<200503150914.j2F9Ei14013548@combo.honeypotbox.com>, relay=root@localhost"
+331,1110860165,mail_log,127.0.0.1,"combo sendmail[13555]: j2F9Fm6S013555: from=<root@combo.honeypotbox.com>, size=39702, class=0, nrcpts=1, msgid=<200503150914.j2F9Ei14013548@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+332,1110860165,mail_log,127.0.0.1,"combo sendmail[13548]: j2F9Ei14013548: to=root, ctladdr=root (0/0), delay=00:01:20, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2F9Fm6S013555 Message accepted for delivery)"
+333,1110860165,mail_log,-,"combo sendmail[13556]: j2F9Fm6S013555: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=69940, dsn=2.0.0, stat=Sent"
+334,1110945731,mail_log,-,"combo sendmail[16094]: j2G92BTv016094: from=root, size=1194, class=0, nrcpts=1, msgid=<200503160902.j2G92BTv016094@combo.honeypotbox.com>, relay=root@localhost"
+335,1110945752,mail_log,127.0.0.1,"combo sendmail[16097]: j2G92B6S016097: from=<root@combo.honeypotbox.com>, size=1508, class=0, nrcpts=1, msgid=<200503160902.j2G92BTv016094@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+336,1110945752,mail_log,127.0.0.1,"combo sendmail[16094]: j2G92BTv016094: to=root, ctladdr=root (0/0), delay=00:00:21, xdelay=00:00:21, mailer=relay, pri=30056, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2G92B6S016097 Message accepted for delivery)"
+337,1110945752,mail_log,-,"combo sendmail[16098]: j2G92B6S016097: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31751, dsn=2.0.0, stat=Sent"
+338,1110946432,mail_log,-,"combo sendmail[16309]: j2G9Cmag016309: from=root, size=39406, class=0, nrcpts=1, msgid=<200503160912.j2G9Cmag016309@combo.honeypotbox.com>, relay=root@localhost"
+339,1110946449,mail_log,127.0.0.1,"combo sendmail[16311]: j2G9Dq6S016311: from=<root@combo.honeypotbox.com>, size=39702, class=0, nrcpts=1, msgid=<200503160912.j2G9Cmag016309@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+340,1110946449,mail_log,127.0.0.1,"combo sendmail[16309]: j2G9Cmag016309: to=root, ctladdr=root (0/0), delay=00:01:20, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2G9Dq6S016311 Message accepted for delivery)"
+341,1110946449,mail_log,-,"combo sendmail[16312]: j2G9Dq6S016311: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=69940, dsn=2.0.0, stat=Sent"
+342,1110953075,mail_log,61.73.91.96,combo sendmail[16488]: j2GB4Z6S016488: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+343,1110953083,mail_log,61.73.91.96,combo sendmail[16489]: j2GB4h6S016489: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+344,1110953083,mail_log,61.73.91.96,combo sendmail[16491]: j2GB4h6S016491: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+345,1110953083,mail_log,61.73.91.96,combo sendmail[16492]: j2GB4h6S016492: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+346,1110953083,mail_log,61.73.91.96,combo sendmail[16493]: j2GB4h6S016493: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+347,1110953083,mail_log,61.73.91.96,combo sendmail[16490]: j2GB4h6S016490: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+348,1110953083,mail_log,61.73.91.96,combo sendmail[16487]: j2GB4h6S016487: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+349,1110953083,mail_log,61.73.91.96,combo sendmail[16503]: j2GB4h6S016503: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+350,1110953083,mail_log,61.73.91.96,combo sendmail[16494]: j2GB4h6S016494: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+351,1110953083,mail_log,61.73.91.96,combo sendmail[16495]: j2GB4h6S016495: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+352,1110953083,mail_log,61.73.91.96,combo sendmail[16496]: j2GB4h6S016496: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+353,1110953083,mail_log,61.73.91.96,combo sendmail[16498]: j2GB4h6S016498: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+354,1110953083,mail_log,61.73.91.96,combo sendmail[16497]: j2GB4h6S016497: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+355,1110953083,mail_log,61.73.91.96,combo sendmail[16499]: j2GB4h6S016499: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+356,1110953083,mail_log,61.73.91.96,combo sendmail[16500]: j2GB4h6S016500: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+357,1110953083,mail_log,61.73.91.96,combo sendmail[16501]: j2GB4h6S016501: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+358,1110953083,mail_log,61.73.91.96,combo sendmail[16504]: j2GB4h6S016504: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+359,1110953083,mail_log,61.73.91.96,combo sendmail[16502]: j2GB4h6S016502: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+360,1110953083,mail_log,61.73.91.96,combo sendmail[16505]: j2GB4h6S016505: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+361,1110953083,mail_log,61.73.91.96,combo sendmail[16506]: j2GB4h6S016506: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+362,1110953083,mail_log,61.73.91.96,combo sendmail[16507]: j2GB4h6S016507: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+363,1110953083,mail_log,61.73.91.96,combo sendmail[16508]: j2GB4h6S016508: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+364,1110953084,mail_log,61.73.91.96,combo sendmail[16509]: j2GB4i6S016509: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+365,1111018134,mail_log,218.239.179.112,combo sendmail[18228]: j2H58s6S018228: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+366,1111018134,mail_log,218.239.179.112,combo sendmail[18229]: j2H58s6S018229: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+367,1111018134,mail_log,218.239.179.112,combo sendmail[18230]: j2H58s6S018230: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+368,1111018134,mail_log,218.239.179.112,combo sendmail[18231]: j2H58s6S018231: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+369,1111018134,mail_log,218.239.179.112,combo sendmail[18232]: j2H58s6S018232: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+370,1111018135,mail_log,218.239.179.112,combo sendmail[18233]: j2H58t6S018233: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+371,1111018135,mail_log,218.239.179.112,combo sendmail[18234]: j2H58t6S018234: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+372,1111018135,mail_log,218.239.179.112,combo sendmail[18235]: j2H58t6S018235: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+373,1111018135,mail_log,218.239.179.112,combo sendmail[18236]: j2H58t6S018236: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+374,1111018135,mail_log,218.239.179.112,combo sendmail[18237]: j2H58t6S018237: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+375,1111018135,mail_log,218.239.179.112,combo sendmail[18238]: j2H58t6S018238: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+376,1111018135,mail_log,218.239.179.112,combo sendmail[18239]: j2H58t6S018239: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+377,1111018135,mail_log,218.239.179.112,combo sendmail[18240]: j2H58t6S018240: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+378,1111018135,mail_log,218.239.179.112,combo sendmail[18241]: j2H58t6S018241: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+379,1111018136,mail_log,218.239.179.112,combo sendmail[18242]: j2H58u6S018242: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+380,1111018136,mail_log,218.239.179.112,combo sendmail[18243]: j2H58u6S018243: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+381,1111018136,mail_log,218.239.179.112,combo sendmail[18244]: j2H58u6S018244: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+382,1111018136,mail_log,218.239.179.112,combo sendmail[18246]: j2H58u6S018246: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+383,1111018137,mail_log,218.239.179.112,combo sendmail[18245]: j2H58u6S018245: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+384,1111018137,mail_log,218.239.179.112,combo sendmail[18247]: j2H58v6S018247: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+385,1111018139,mail_log,218.239.179.112,combo sendmail[18248]: j2H58x6S018248: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+386,1111018139,mail_log,218.239.179.112,combo sendmail[18249]: j2H58x6S018249: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+387,1111018171,mail_log,218.239.179.112,combo sendmail[18227]: j2H58k6S018227: lost input channel from [218.239.179.112] to MTA after mail
+388,1111018171,mail_log,218.239.179.112,"combo sendmail[18227]: j2H58k6S018227: from=f831849@thrunet.net, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[218.239.179.112]"
+389,1111032139,mail_log,-,"combo sendmail[18869]: j2H92JvK018869: from=root, size=1370, class=0, nrcpts=1, msgid=<200503170902.j2H92JvK018869@combo.honeypotbox.com>, relay=root@localhost"
+390,1111032163,mail_log,127.0.0.1,"combo sendmail[18872]: j2H92J6S018872: from=<root@combo.honeypotbox.com>, size=1684, class=0, nrcpts=1, msgid=<200503170902.j2H92JvK018869@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+391,1111032163,mail_log,127.0.0.1,"combo sendmail[18869]: j2H92JvK018869: to=root, ctladdr=root (0/0), delay=00:00:24, xdelay=00:00:24, mailer=relay, pri=30056, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2H92J6S018872 Message accepted for delivery)"
+392,1111032164,mail_log,-,"combo sendmail[18873]: j2H92J6S018872: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31927, dsn=2.0.0, stat=Sent"
+393,1111032855,mail_log,-,"combo sendmail[19084]: j2H9DCNt019084: from=root, size=39406, class=0, nrcpts=1, msgid=<200503170913.j2H9DCNt019084@combo.honeypotbox.com>, relay=root@localhost"
+394,1111032872,mail_log,127.0.0.1,"combo sendmail[19086]: j2H9EG6S019086: from=<root@combo.honeypotbox.com>, size=39702, class=0, nrcpts=1, msgid=<200503170913.j2H9DCNt019084@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]"
+395,1111032872,mail_log,127.0.0.1,"combo sendmail[19084]: j2H9DCNt019084: to=root, ctladdr=root (0/0), delay=00:01:20, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2H9EG6S019086 Message accepted for delivery)"
+396,1111032873,mail_log,-,"combo sendmail[19087]: j2H9EG6S019086: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=69940, dsn=2.0.0, stat=Sent"
+397,1110686745,error_log,-,[notice] Digest: generating secret for digest authentication ...
+398,1110686745,error_log,-,[notice] Digest: done
+399,1110686746,error_log,-,[notice] Apache/2.0.40 (Red Hat Linux) configured -- resuming normal operations
+400,1110686747,error_log,210.116.59.164,"[error] File does not exist: /var/www/html/_vti_bin
+"
+401,1110686792,error_log,210.116.59.164,"[error] File does not exist: /var/www/html/_vti_bin
+"
+402,1110686839,error_log,210.116.59.164,"[error] File does not exist: /var/www/html/_vti_bin
+"
+403,1110686891,error_log,210.116.59.164,"[error] File does not exist: /var/www/html/_vti_bin
+"
+404,1110686940,error_log,210.116.59.164,"[error] File does not exist: /var/www/html/_vti_bin
+"
+405,1110687019,error_log,211.141.115.145,"[error] Directory index forbidden by rule: /var/www/html/
+"
+406,1110701007,error_log,66.30.71.74,"[error] File does not exist: /var/www/html/scripts
+"
+407,1110710171,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+408,1110710171,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+409,1110710171,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+410,1110710171,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+411,1110710171,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+412,1110710171,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+413,1110710172,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+414,1110710172,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+415,1110710172,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+416,1110710172,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+417,1110710172,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+418,1110710172,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+419,1110710172,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+420,1110710173,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+421,1110710173,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+422,1110710173,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+423,1110710173,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+424,1110710174,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+425,1110710174,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+426,1110710174,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+427,1110710174,error_log,218.1.111.50,"[error] Directory index forbidden by rule: /var/www/html/
+"
+428,1110712918,error_log,66.131.126.31,"[error] Directory index forbidden by rule: /var/www/html/
+"
+429,1110714119,error_log,69.158.7.209,"[error] Directory index forbidden by rule: /var/www/html/
+"
+430,1110719133,error_log,213.129.21.137,"[error] Directory index forbidden by rule: /var/www/html/
+"
+431,1110721694,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/scripts
+"
+432,1110721696,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/MSADC
+"
+433,1110721698,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/c
+"
+434,1110721700,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/d
+"
+435,1110721702,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/scripts
+"
+436,1110721704,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/_vti_bin
+"
+437,1110721706,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/_mem_bin
+"
+438,1110721708,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/msadc
+"
+439,1110721709,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/scripts
+"
+440,1110721712,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/scripts
+"
+441,1110721715,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/scripts
+"
+442,1110721720,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/scripts
+"
+443,1110721722,error_log,24.23.244.160,"[error] File does not exist: /var/www/html/scripts
+"
+444,1110726164,error_log,24.130.169.87,"[error] Directory index forbidden by rule: /var/www/html/
+"
+445,1110729667,error_log,221.237.66.208,"[error] Directory index forbidden by rule: /var/www/html/
+"
+446,1110735346,error_log,208.46.133.177,"[error] Directory index forbidden by rule: /var/www/html/
+"
+447,1110737151,error_log,218.88.202.208,"[error] Directory index forbidden by rule: /var/www/html/
+"
+448,1110738445,error_log,219.186.156.26,"[error] Directory index forbidden by rule: /var/www/html/
+"
+449,1110744972,error_log,65.202.33.226,"[error] Directory index forbidden by rule: /var/www/html/
+"
+450,1110749098,error_log,208.39.169.124,"[error] Directory index forbidden by rule: /var/www/html/
+"
+451,1110751905,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+452,1110751905,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+453,1110751905,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+454,1110751906,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+455,1110751906,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+456,1110751906,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+457,1110751906,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+458,1110751906,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+459,1110751906,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+460,1110751906,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+461,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+462,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+463,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+464,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+465,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+466,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+467,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+468,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+469,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+470,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+471,1110751907,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+472,1110751908,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+473,1110751908,error_log,220.110.29.27,"[error] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+"
+474,1110753511,error_log,61.205.6.71,"[error] Directory index forbidden by rule: /var/www/html/
+"
+475,1110758852,error_log,68.191.137.235,"[error] Directory index forbidden by rule: /var/www/html/
+"
+476,1110768521,error_log,157.91.44.1,"[error] Directory index forbidden by rule: /var/www/html/
+"
+477,1110773467,error_log,209.213.220.227,"[error] Directory index forbidden by rule: /var/www/html/
+"
+478,1110775615,error_log,218.201.121.99,"[error] Directory index forbidden by rule: /var/www/html/
+"
+479,1110783205,error_log,222.166.160.63,"[error] Directory index forbidden by rule: /var/www/html/
+"
+480,1110789836,error_log,66.21.127.198,"[error] Directory index forbidden by rule: /var/www/html/
+"
+481,1110796823,error_log,24.185.27.145,"[error] Directory index forbidden by rule: /var/www/html/
+"
+482,1110798760,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/scripts
+"
+483,1110798760,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/MSADC
+"
+484,1110798760,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/c
+"
+485,1110798761,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/d
+"
+486,1110798761,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/scripts
+"
+487,1110798761,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/_vti_bin
+"
+488,1110798762,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/_mem_bin
+"
+489,1110798762,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/msadc
+"
+490,1110798762,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/scripts
+"
+491,1110798762,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/scripts
+"
+492,1110798763,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/scripts
+"
+493,1110798763,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/scripts
+"
+494,1110798763,error_log,69.246.7.31,"[error] File does not exist: /var/www/html/scripts
+"
+495,1110809436,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/scripts
+"
+496,1110809437,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/MSADC
+"
+497,1110809437,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/c
+"
+498,1110809437,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/d
+"
+499,1110809438,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/scripts
+"
+500,1110809441,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/_vti_bin
+"
+501,1110809442,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/_mem_bin
+"
+502,1110809442,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/msadc
+"
+503,1110809443,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/scripts
+"
+504,1110809443,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/scripts
+"
+505,1110809444,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/scripts
+"
+506,1110809444,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/scripts
+"
+507,1110809445,error_log,67.170.0.153,"[error] File does not exist: /var/www/html/scripts
+"
+508,1110813217,error_log,222.166.160.3,"[error] Directory index forbidden by rule: /var/www/html/
+"
+509,1110816072,error_log,61.10.7.140,"[error] Directory index forbidden by rule: /var/www/html/
+"
+510,1110819867,error_log,61.232.252.176,"[error] Directory index forbidden by rule: /var/www/html/
+"
+511,1110836931,error_log,219.133.25.250,"[error] Directory index forbidden by rule: /var/www/html/
+"
+512,1110837042,error_log,139.68.4.4,"[error] Directory index forbidden by rule: /var/www/html/
+"
+513,1110839736,error_log,204.102.106.103,"[error] Directory index forbidden by rule: /var/www/html/
+"
+514,1110849888,error_log,61.10.7.68,"[error] Directory index forbidden by rule: /var/www/html/
+"
+515,1110850112,error_log,67.136.86.162,"[error] Directory index forbidden by rule: /var/www/html/
+"
+516,1110851183,error_log,157.91.48.191,"[error] Directory index forbidden by rule: /var/www/html/
+"
+517,1110856839,error_log,67.154.159.190,"[error] Directory index forbidden by rule: /var/www/html/
+"
+518,1110863210,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+519,1110863210,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+520,1110863210,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+521,1110863210,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+522,1110863211,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+523,1110863212,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+524,1110863212,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+525,1110863212,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+526,1110863212,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+527,1110863213,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+528,1110863213,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+529,1110863213,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+530,1110863213,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+531,1110863213,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+532,1110863213,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+533,1110863213,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+534,1110863213,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+535,1110863213,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+536,1110863213,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+537,1110863213,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+538,1110863213,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+539,1110863213,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+540,1110863213,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+541,1110863213,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+542,1110863214,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+543,1110863214,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+544,1110863214,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+545,1110863215,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+546,1110863215,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+547,1110863215,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+548,1110863215,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+549,1110863215,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+550,1110863216,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+551,1110863216,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+552,1110863216,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+553,1110863217,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+554,1110863217,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+555,1110863217,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+556,1110863217,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+557,1110863217,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+558,1110863218,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+559,1110863218,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+560,1110863218,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+561,1110863218,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+562,1110863218,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+563,1110863218,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+564,1110863219,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+565,1110863219,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+566,1110863219,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+567,1110863219,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+568,1110863219,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+569,1110863219,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+570,1110863219,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+571,1110863220,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+572,1110863220,error_log,81.181.146.13,"[error] Premature end of script headers: awstats.pl
+"
+573,1110863220,error_log,81.181.146.13,"[error] /usr/bin/perl: relocation error: /lib/tls/libpthread.so.0: symbol errno, version GLIBC_PRIVATE not defined in file libc.so.6 with link time reference
+"
+574,1110863220,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+575,1110863220,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+576,1110863220,error_log,81.181.146.13,"[error] script not found or unable to stat: /var/www/cgi-bin/awstats
+"
+577,1110863220,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+578,1110863220,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+579,1110863220,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+580,1110863221,error_log,81.181.146.13,"[error] File does not exist: /var/www/html/cgi
+"
+581,1110863221,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+582,1110863222,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+583,1110863224,error_log,81.181.146.13,"[error] Directory index forbidden by rule: /var/www/html/
+"
+584,1110868873,error_log,201.9.48.227,"[error] File does not exist: /var/www/html/default.ida
+"
+585,1110873194,error_log,217.204.59.69,"[error] Directory index forbidden by rule: /var/www/html/
+"
+586,1110885842,error_log,218.6.162.19,"[error] Directory index forbidden by rule: /var/www/html/
+"
+587,1110899269,error_log,24.11.17.100,"[error] Directory index forbidden by rule: /var/www/html/
+"
+588,1110913113,error_log,65.96.54.37,"[error] File does not exist: /var/www/html/NULL.printer
+"
+589,1110925234,error_log,195.70.152.248,"[error] File does not exist: /var/www/html/NULL.printer
+"
+590,1110930324,error_log,62.6.139.11,"[error] Directory index forbidden by rule: /var/www/html/
+"
+591,1110931788,error_log,211.158.94.106,"[error] Directory index forbidden by rule: /var/www/html/
+"
+592,1110934902,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+593,1110934902,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+594,1110934902,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+595,1110934902,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+596,1110934902,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+597,1110934902,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+598,1110934902,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+599,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+600,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+601,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+602,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+603,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+604,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+605,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+606,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+607,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+608,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+609,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+610,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+611,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+612,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+613,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+614,1110934903,error_log,207.228.251.216,"[error] File does not exist: /var/www/html/sumthin
+"
+615,1110941142,error_log,218.11.95.43,"[error] File does not exist: /var/www/html/scripts
+"
+616,1110941146,error_log,218.11.95.43,"[error] File does not exist: /var/www/html/MSADC
+"
+617,1110941150,error_log,218.11.95.43,"[error] File does not exist: /var/www/html/c
+"
+618,1110941154,error_log,218.11.95.43,"[error] File does not exist: /var/www/html/d
+"
+619,1110941155,error_log,218.11.95.43,"[error] File does not exist: /var/www/html/scripts
+"
+620,1110941160,error_log,218.11.95.43,"[error] File does not exist: /var/www/html/_vti_bin
+"
+621,1110941161,error_log,218.11.95.43,"[error] File does not exist: /var/www/html/_mem_bin
+"
+622,1110941162,error_log,218.11.95.43,"[error] File does not exist: /var/www/html/msadc
+"
+623,1110951640,error_log,69.67.42.139,"[error] File does not exist: /var/www/html/scripts
+"
+624,1110953496,error_log,66.134.74.113,"[error] Directory index forbidden by rule: /var/www/html/
+"
+625,1110958184,error_log,204.102.106.121,"[error] Directory index forbidden by rule: /var/www/html/
+"
+626,1110962881,error_log,68.166.35.226,"[error] Directory index forbidden by rule: /var/www/html/
+"
+627,1110963224,error_log,61.10.7.209,"[error] Directory index forbidden by rule: /var/www/html/
+"
+628,1110965655,error_log,207.243.156.65,"[error] Directory index forbidden by rule: /var/www/html/
+"
+629,1110969323,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/scripts
+"
+630,1110969324,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/MSADC
+"
+631,1110969324,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/c
+"
+632,1110969325,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/d
+"
+633,1110969325,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/scripts
+"
+634,1110969325,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/_vti_bin
+"
+635,1110969326,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/_mem_bin
+"
+636,1110969326,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/msadc
+"
+637,1110969326,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/scripts
+"
+638,1110969327,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/scripts
+"
+639,1110969327,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/scripts
+"
+640,1110969328,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/scripts
+"
+641,1110969328,error_log,71.16.50.10,"[error] File does not exist: /var/www/html/scripts
+"
+642,1110976930,error_log,66.171.199.116,"[error] Directory index forbidden by rule: /var/www/html/
+"
+643,1110979420,error_log,64.83.24.184,"[error] Directory index forbidden by rule: /var/www/html/
+"
+644,1110980816,error_log,66.30.71.74,"[error] File does not exist: /var/www/html/NULL.printer
+"
+645,1110983346,error_log,208.62.177.10,"[error] Directory index forbidden by rule: /var/www/html/
+"
+646,1110983368,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/scripts
+"
+647,1110983369,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/MSADC
+"
+648,1110983371,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/c
+"
+649,1110983372,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/d
+"
+650,1110983373,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/scripts
+"
+651,1110983374,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/_vti_bin
+"
+652,1110983375,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/_mem_bin
+"
+653,1110983376,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/msadc
+"
+654,1110983378,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/scripts
+"
+655,1110983381,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/scripts
+"
+656,1110983382,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/scripts
+"
+657,1110983385,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/scripts
+"
+658,1110983386,error_log,209.120.201.177,"[error] File does not exist: /var/www/html/scripts
+"
+659,1110987905,error_log,65.16.76.54,"[error] File does not exist: /var/www/html/_vti_bin
+"
+660,1110988230,error_log,65.16.76.54,"[error] File does not exist: /var/www/html/_vti_bin
+"
+661,1110997397,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+662,1110997397,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+663,1110997398,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+664,1110997398,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+665,1110997398,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+666,1110997398,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+667,1110997398,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+668,1110997399,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+669,1110997399,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+670,1110997399,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+671,1110997400,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+672,1110997400,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+673,1110997401,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+674,1110997401,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+675,1110997401,error_log,218.85.9.143,"[error] Directory index forbidden by rule: /var/www/html/
+"
+676,1111000130,error_log,67.81.23.243,"[error] Directory index forbidden by rule: /var/www/html/
+"
+677,1111002115,error_log,202.122.16.7,"[error] File does not exist: /var/www/html/_vti_bin
+"
+678,1111002561,error_log,220.170.151.237,"[error] Directory index forbidden by rule: /var/www/html/
+"
+679,1111005318,error_log,64.83.24.184,"[error] Directory index forbidden by rule: /var/www/html/
+"
+680,1111018092,error_log,222.166.160.138,"[error] Directory index forbidden by rule: /var/www/html/
+"
+681,1111034535,error_log,61.10.7.45,"[error] Directory index forbidden by rule: /var/www/html/
+"
+682,1111037480,error_log,69.107.121.41,"[error] Directory index forbidden by rule: /var/www/html/
+"
+683,1111038184,error_log,201.9.104.83,"[error] File does not exist: /var/www/html/default.ida
+"
+684,1111047996,error_log,207.10.54.33,"[error] Directory index forbidden by rule: /var/www/html/
+"
+685,1111050725,error_log,68.98.176.140,"[error] Directory index forbidden by rule: /var/www/html/
+"
+686,1111053985,error_log,68.250.190.161,"[error] Directory index forbidden by rule: /var/www/html/
+"
+687,1111059507,error_log,219.150.244.58,"[error] Directory index forbidden by rule: /var/www/html/
+"
