@@ -8,6 +8,8 @@ import re
 import csv
 import pandas as pd
 import sys
+from os import remove
+
 
 #Variable para definir los segundos en los que se van a agrupar los ficheros
 if len(sys.argv) > 1:
@@ -27,12 +29,8 @@ accessIP=[]
 mailIP=[]
 errorIP=[]
 
-all=[]
-
 
 ### Salida CSV ###
-
-
 # open the file in the write mode
 f = open('ficheroALlLogs.csv', 'w')
 # create the csv writer
@@ -103,8 +101,6 @@ def dateorder(file):
 
 			#########Logs para el fichero comun
 			lista2=[epochDate, "access_log", ip, linea[linea.find(']')+1:-1]]
-		   
-			all.append(lista2)
 			# write a row to the csv file
 			writer.writerow(lista2)
 
@@ -171,7 +167,6 @@ def dateorder(file):
 
 			#########Logs para el fichero comun
 			lista2=[epochDate, "mail_log", ip, linea[linea.find('combo'):-1]]
-			all.append(lista2)
 			# write a row to the csv file
 			writer.writerow(lista2)
 
@@ -234,14 +229,12 @@ def dateorder(file):
 				ip = '-'
 
 			#########Logs para el fichero comun
-			#lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
 			try:
 				linea_aux = linea.split('[client')[1]
 				linea_aux= linea_aux.split(']')[1]
 				lista2=[epochDate, "error_log", ip, "[error]" + linea_aux  ]
 			except: 
 				lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
-			all.append(lista2)
 			# write a row to the csv file
 			writer.writerow(lista2)
 
@@ -251,14 +244,6 @@ def dateorder(file):
 		global errorIP
 		errorT = timeSort
 		errorIP = timeSort2
-
-#Escribe el fichero con todos los logs ordenados (hay que llamar antes a dateorder con cada fichero)
-def writefile():
-	s = open("ficheroAllLogs", "w")
-	allSorted = sorted(all, key= lambda time : time[0])
-	for i in range(0, len(all)):
-		s.write(str(allSorted[i])+"\n")
-	s.close()
 
 #Graficas individuales
 def drawgraphictime(sensor, timearray):
@@ -270,9 +255,13 @@ def drawgraphictime(sensor, timearray):
 		value.append(timearray[i][1])
 	positionx =np.arange(len(hours))
 	plt.bar(positionx,value,align="center")
-	#Etiquetas xlabel
-	plt.xticks(positionx,hours)
-	#plt.xticks()
+	
+	nvalores=25
+	startgraph = hours[0]
+	finishgraph = hours[len(hours)-1]
+	entre = (hours[len(hours)-1]-hours[0])/nvalores
+	index2 = np.arange(len(hours), step=len(hours)/nvalores)
+	plt.xticks(index2, np.arange(startgraph, finishgraph, step=entre, dtype=int))
 	plt.xticks(rotation=90)
 	plt.xlabel("Date")
 	plt.ylabel("Number of records")
@@ -338,7 +327,6 @@ def drawgrafictimetotal(access_log, mail_log, error_log):
 	plt.bar(index, valueAcc, label='access')
 	plt.bar(index, valueMail, label='mail', bottom=np.array(valueAcc))
 	plt.bar(index, valueError, label='error', bottom=np.array(valueAcc) + np.array(valueMail))
-	#plt.xticks(index,hours2)
 	nvalores=25
 	startgraph = hours2[0]
 	finishgraph = hours2[len(hours2)-1]
@@ -417,7 +405,6 @@ def drawgraphicip(logType, timearray):
 dateorder(1)
 dateorder(2)
 dateorder(3)
-writefile()
 
 drawgraphictime("access_log", accessT)
 drawgraphictime("mail_log", mailT)
@@ -431,15 +418,9 @@ drawgrafictimetotal(accessT,mailT,errorT)
 
 # close the file
 f.close()
-
 df = pd.read_csv('ficheroALlLogs.csv', header=None, names=["Epoch Date", "Log Type", "IP Adress", "Log"])
-
-"""
-f2 = open("ResultadoFinal.txt", "w")
-f2.write(str(df))
-f2.close()
-"""
-
-df.to_csv('out.csv') #fichero final.  
+df.to_csv('out.csv') #fichero final.
 f.close()
-#print(df)
+#Se elimina el fichero que ya no es necesario
+remove('ficheroALlLogs.csv')
+
