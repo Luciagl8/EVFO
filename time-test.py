@@ -11,9 +11,9 @@ import sys
 
 #Variable para definir los segundos en los que se van a agrupar los ficheros
 if len(sys.argv) > 1:
-    step = int(sys.argv[1])
+	step = int(sys.argv[1])
 else:
-    step=3600
+	step=3600
 
 access=[]
 mail=[]
@@ -42,243 +42,243 @@ writer = csv.writer(f)
 
 
 def dateorder(file):
-    recordlist=[]
-    timelist=[]
-    first = True
+	recordlist=[]
+	timelist=[]
+	first = True
 
-    iplist=[]
-    listlist=[]
-    first1 = True
+	iplist=[]
+	listlist=[]
+	first1 = True
 
-    ### First log
-    if file == 1:
-        f = open('./logFiles/access_log')
-        for linea in f:
-            date_string = linea[linea.find('[')+1:linea.find('-0500')-1]
+	### First log
+	if file == 1:
+		f = open('./logFiles/access_log')
+		for linea in f:
+			date_string = linea[linea.find('[')+1:linea.find('-0500')-1]
 
-            fmt = ("%d/%b/%Y:%H:%M:%S")
-            epochDate = int(calendar.timegm(time.strptime(str(date_string), fmt)))
+			fmt = ("%d/%b/%Y:%H:%M:%S")
+			epochDate = int(calendar.timegm(time.strptime(str(date_string), fmt)))
 
-            global access
-            access.append(int(epochDate))
-            access.sort()
+			global access
+			access.append(int(epochDate))
+			access.sort()
 
-            #First record
-            if first:
-                recordlist.append(epochDate)
-                lista=[epochDate, 1]
-                timelist.append(lista)
-                first=False
-                #Calculate the frequecy of the hours for each record
-            else:
-                if epochDate in recordlist:
-                    ind = recordlist.index(epochDate)
-                    timelist[ind][1]=timelist[ind][1]+1
-                else:
-                    lista=[epochDate, 1]
-                    timelist.append(lista)
-                    recordlist.append(epochDate)
-            
-            # Get ip (if contains) from each log 
-            ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
-            if len(ip_list) > 0:
-                ip = ip_list[0]
-                #Para realizar las gráficas de IP
-                val=[epochDate, ip]
-                if first1:
-                    lista=[epochDate, ip, 1]
-                    iplist.append(lista)
-                    listlist.append(val)
-                    first1=False
-                else:
-                    if val in listlist:
-                        ind = listlist.index(val)
-                        iplist[ind][2]=iplist[ind][2]+1
-                    else:
-                        lista=[epochDate, ip, 1]
-                        iplist.append(lista)
-                        listlist.append(val)
-            else:
-                ip = '-'
+			#First record
+			if first:
+				recordlist.append(epochDate)
+				lista=[epochDate, 1]
+				timelist.append(lista)
+				first=False
+				#Calculate the frequecy of the hours for each record
+			else:
+				if epochDate in recordlist:
+					ind = recordlist.index(epochDate)
+					timelist[ind][1]=timelist[ind][1]+1
+				else:
+					lista=[epochDate, 1]
+					timelist.append(lista)
+					recordlist.append(epochDate)
+			
+			# Get ip (if contains) from each log 
+			ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
+			if len(ip_list) > 0:
+				ip = ip_list[0]
+				#Para realizar las gráficas de IP
+				val=[epochDate, ip]
+				if first1:
+					lista=[epochDate, ip, 1]
+					iplist.append(lista)
+					listlist.append(val)
+					first1=False
+				else:
+					if val in listlist:
+						ind = listlist.index(val)
+						iplist[ind][2]=iplist[ind][2]+1
+					else:
+						lista=[epochDate, ip, 1]
+						iplist.append(lista)
+						listlist.append(val)
+			else:
+				ip = '-'
 
-            #########Logs para el fichero comun
-            lista2=[epochDate, "access_log", ip, linea[linea.find(']')+1:-1]]
-           
-            all.append(lista2)
-            # write a row to the csv file
-            writer.writerow(lista2)
-
-
-        timeSort = sorted(timelist, key= lambda time : time[0])
-        timeSort2 = sorted(iplist, key= lambda time : time[0])
-        global accessT
-        global accessIP
-        accessT = timeSort
-        accessIP = timeSort2
+			#########Logs para el fichero comun
+			lista2=[epochDate, "access_log", ip, linea[linea.find(']')+1:-1]]
+		   
+			all.append(lista2)
+			# write a row to the csv file
+			writer.writerow(lista2)
 
 
-    ### Second log
-    if file == 2:
-        f = open('./logFiles/maillog')
-        for linea in f:
-            date_string = '2005 ' + linea[:linea.find('combo')-1]
-            date_object = datetime.strptime(date_string, "%Y %b %d %X")
+		timeSort = sorted(timelist, key= lambda time : time[0])
+		timeSort2 = sorted(iplist, key= lambda time : time[0])
+		global accessT
+		global accessIP
+		accessT = timeSort
+		accessIP = timeSort2
 
-            fmt = ("%Y-%m-%d %H:%M:%S")
-            epochDate = int(calendar.timegm(time.strptime(str(date_object), fmt)))
 
-            global mail
-            mail.append(int(epochDate))
-            mail.sort()
+	### Second log
+	if file == 2:
+		f = open('./logFiles/maillog')
+		for linea in f:
+			date_string = '2005 ' + linea[:linea.find('combo')-1]
+			date_object = datetime.strptime(date_string, "%Y %b %d %X")
 
-            #First record
-            if first:
-                recordlist.append(epochDate)
-                lista=[epochDate, 1]
-                timelist.append(lista)
-                first=False
-                #Calculate the frequecy of the hours for each record
-            else:
-                if epochDate in recordlist:
-                    ind = recordlist.index(epochDate)
-                    timelist[ind][1]=timelist[ind][1]+1
-                else:
-                    lista=[epochDate, 1]
-                    timelist.append(lista)
-                    recordlist.append(epochDate)
+			fmt = ("%Y-%m-%d %H:%M:%S")
+			epochDate = int(calendar.timegm(time.strptime(str(date_object), fmt)))
 
-            # Get ip (if contains) from each log 
-            ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
-            if len(ip_list) > 0:
-                ip = ip_list[0]
-                #Para realizar las gráficas de IP
-                val=[epochDate, ip]
-                if first1:
-                    lista=[epochDate, ip, 1]
-                    iplist.append(lista)
-                    listlist.append(val)
-                    first1=False
-                else:
-                    if val in listlist:
-                        ind = listlist.index(val)
-                        iplist[ind][2]=iplist[ind][2]+1
-                    else:
-                        lista=[epochDate, ip, 1]
-                        iplist.append(lista)
-                        listlist.append(val)
-            else:
-                ip = '-'
+			global mail
+			mail.append(int(epochDate))
+			mail.sort()
 
-            #########Logs para el fichero comun
-            lista2=[epochDate, "mail_log", ip, linea[linea.find('combo'):-1]]
-            all.append(lista2)
-            # write a row to the csv file
-            writer.writerow(lista2)
+			#First record
+			if first:
+				recordlist.append(epochDate)
+				lista=[epochDate, 1]
+				timelist.append(lista)
+				first=False
+				#Calculate the frequecy of the hours for each record
+			else:
+				if epochDate in recordlist:
+					ind = recordlist.index(epochDate)
+					timelist[ind][1]=timelist[ind][1]+1
+				else:
+					lista=[epochDate, 1]
+					timelist.append(lista)
+					recordlist.append(epochDate)
 
-        timeSort = sorted(timelist, key= lambda time : time[0])
-        timeSort2 = sorted(iplist, key= lambda time : time[0])
-        global mailT
-        global mailIP
-        mailT = timeSort
-        mailIP = timeSort2
-    
-    ### Third log
-    if file == 3:
-        f = open('./logFiles/error_log')
-        for linea in f:
-            date_string = linea[linea.find('[')+5:linea.find(']')]
-            date_object = datetime.strptime(date_string, "%b %d %X %Y")
-            fmt = ("%Y-%m-%d %H:%M:%S")
-            epochDate = int(calendar.timegm(time.strptime(str(date_object), fmt)))
-            
-            global error
-            error.append(int(epochDate))
-            error.sort()
+			# Get ip (if contains) from each log 
+			ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
+			if len(ip_list) > 0:
+				ip = ip_list[0]
+				#Para realizar las gráficas de IP
+				val=[epochDate, ip]
+				if first1:
+					lista=[epochDate, ip, 1]
+					iplist.append(lista)
+					listlist.append(val)
+					first1=False
+				else:
+					if val in listlist:
+						ind = listlist.index(val)
+						iplist[ind][2]=iplist[ind][2]+1
+					else:
+						lista=[epochDate, ip, 1]
+						iplist.append(lista)
+						listlist.append(val)
+			else:
+				ip = '-'
 
-            #First record
-            if first:
-                recordlist.append(epochDate)
-                lista=[epochDate, 1]
-                timelist.append(lista)
-                first=False
-                #Calculate the frequecy of the hours for each record
-            else:
-                if epochDate in recordlist:
-                    ind = recordlist.index(epochDate)
-                    timelist[ind][1]=timelist[ind][1]+1
-                else:
-                    lista=[epochDate, 1]
-                    timelist.append(lista)
-                    recordlist.append(epochDate)
+			#########Logs para el fichero comun
+			lista2=[epochDate, "mail_log", ip, linea[linea.find('combo'):-1]]
+			all.append(lista2)
+			# write a row to the csv file
+			writer.writerow(lista2)
 
-            # Get ip (if contains) from each log 
-            ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
-            if len(ip_list) > 0:
-                ip = ip_list[0]
-                #Para realizar las gráficas de IP
-                val=[epochDate, ip]
-                if first1:
-                    lista=[epochDate, ip, 1]
-                    iplist.append(lista)
-                    listlist.append(val)
-                    first1=False
-                else:
-                    if val in listlist:
-                        ind = listlist.index(val)
-                        iplist[ind][2]=iplist[ind][2]+1
-                    else:
-                        lista=[epochDate, ip, 1]
-                        iplist.append(lista)
-                        listlist.append(val)
-            else:
-                ip = '-'
+		timeSort = sorted(timelist, key= lambda time : time[0])
+		timeSort2 = sorted(iplist, key= lambda time : time[0])
+		global mailT
+		global mailIP
+		mailT = timeSort
+		mailIP = timeSort2
+	
+	### Third log
+	if file == 3:
+		f = open('./logFiles/error_log')
+		for linea in f:
+			date_string = linea[linea.find('[')+5:linea.find(']')]
+			date_object = datetime.strptime(date_string, "%b %d %X %Y")
+			fmt = ("%Y-%m-%d %H:%M:%S")
+			epochDate = int(calendar.timegm(time.strptime(str(date_object), fmt)))
+			
+			global error
+			error.append(int(epochDate))
+			error.sort()
 
-            #########Logs para el fichero comun
-            #lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
-            try:
-                linea_aux = linea.split('[client')[1]
-                linea_aux= linea_aux.split(']')[1]
-                lista2=[epochDate, "error_log", ip, "[error]" + linea_aux  ]
-            except: 
-                lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
-            all.append(lista2)
-            # write a row to the csv file
-            writer.writerow(lista2)
+			#First record
+			if first:
+				recordlist.append(epochDate)
+				lista=[epochDate, 1]
+				timelist.append(lista)
+				first=False
+				#Calculate the frequecy of the hours for each record
+			else:
+				if epochDate in recordlist:
+					ind = recordlist.index(epochDate)
+					timelist[ind][1]=timelist[ind][1]+1
+				else:
+					lista=[epochDate, 1]
+					timelist.append(lista)
+					recordlist.append(epochDate)
 
-        timeSort = sorted(timelist, key= lambda time : time[0])
-        timeSort2 = sorted(iplist, key= lambda time : time[0])
-        global errorT
-        global errorIP
-        errorT = timeSort
-        errorIP = timeSort2
+			# Get ip (if contains) from each log 
+			ip_list = re.findall( r'[0-9]+(?:\.[0-9]+){3}', linea )
+			if len(ip_list) > 0:
+				ip = ip_list[0]
+				#Para realizar las gráficas de IP
+				val=[epochDate, ip]
+				if first1:
+					lista=[epochDate, ip, 1]
+					iplist.append(lista)
+					listlist.append(val)
+					first1=False
+				else:
+					if val in listlist:
+						ind = listlist.index(val)
+						iplist[ind][2]=iplist[ind][2]+1
+					else:
+						lista=[epochDate, ip, 1]
+						iplist.append(lista)
+						listlist.append(val)
+			else:
+				ip = '-'
+
+			#########Logs para el fichero comun
+			#lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
+			try:
+				linea_aux = linea.split('[client')[1]
+				linea_aux= linea_aux.split(']')[1]
+				lista2=[epochDate, "error_log", ip, "[error]" + linea_aux  ]
+			except: 
+				lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
+			all.append(lista2)
+			# write a row to the csv file
+			writer.writerow(lista2)
+
+		timeSort = sorted(timelist, key= lambda time : time[0])
+		timeSort2 = sorted(iplist, key= lambda time : time[0])
+		global errorT
+		global errorIP
+		errorT = timeSort
+		errorIP = timeSort2
 
 #Escribe el fichero con todos los logs ordenados (hay que llamar antes a dateorder con cada fichero)
 def writefile():
-    s = open("ficheroAllLogs", "w")
-    allSorted = sorted(all, key= lambda time : time[0])
-    for i in range(0, len(all)):
-        s.write(str(allSorted[i])+"\n")
-    s.close()
+	s = open("ficheroAllLogs", "w")
+	allSorted = sorted(all, key= lambda time : time[0])
+	for i in range(0, len(all)):
+		s.write(str(allSorted[i])+"\n")
+	s.close()
 
 #Graficas individuales
 def drawgraphictime(sensor, timearray):
-    hours=[]
-    value=[]
-    plt.figure(sensor)
-    for i in range(0,len(timearray)):
-        hours.append(timearray[i][0])
-        value.append(timearray[i][1])
-    positionx =np.arange(len(hours))
-    plt.bar(positionx,value,align="center")
-    #Etiquetas xlabel
-    plt.xticks(positionx,hours)
-    #plt.xticks()
-    plt.xticks(rotation=90)
-    plt.xlabel("Date")
-    plt.ylabel("Number of records")
-    plt.title(sensor +" time")
-    plt.savefig(sensor +"T.png", bbox_inches="tight", pad_inches = 0.3)
-    plt.close()
+	hours=[]
+	value=[]
+	plt.figure(sensor)
+	for i in range(0,len(timearray)):
+		hours.append(timearray[i][0])
+		value.append(timearray[i][1])
+	positionx =np.arange(len(hours))
+	plt.bar(positionx,value,align="center")
+	#Etiquetas xlabel
+	plt.xticks(positionx,hours)
+	#plt.xticks()
+	plt.xticks(rotation=90)
+	plt.xlabel("Date")
+	plt.ylabel("Number of records")
+	plt.title(sensor +" time")
+	plt.savefig(sensor +"T.png", bbox_inches="tight", pad_inches = 0.3)
+	plt.close()
 
 #Grafica global
 def drawgrafictimetotal(access_log, mail_log, error_log):
@@ -317,7 +317,7 @@ def drawgrafictimetotal(access_log, mail_log, error_log):
 	contador = len(hours2)
 	contpop = 0
 	for i in range(0, len(hours2)):
-        #Esta es la variable que determina la agrupación en segundos
+		#Esta es la variable que determina la agrupación en segundos
 		global step
 		if i < contador :
 			contpop = 0
@@ -338,7 +338,13 @@ def drawgrafictimetotal(access_log, mail_log, error_log):
 	plt.bar(index, valueAcc, label='access')
 	plt.bar(index, valueMail, label='mail', bottom=np.array(valueAcc))
 	plt.bar(index, valueError, label='error', bottom=np.array(valueAcc) + np.array(valueMail))
-	plt.xticks(index,hours2)
+	#plt.xticks(index,hours2)
+	nvalores=25
+	startgraph = hours2[0]
+	finishgraph = hours2[len(hours2)-1]
+	entre = (hours2[len(hours2)-1]-hours2[0])/nvalores
+	index2 = np.arange(len(hours2), step=len(hours2)/nvalores)
+	plt.xticks(index2, np.arange(startgraph, finishgraph, step=entre, dtype=int))
 	plt.xticks(rotation=90)
 	plt.ylabel("Number of records")
 	plt.xlabel("Date")

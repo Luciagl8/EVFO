@@ -153,7 +153,7 @@ def drawgrafictimetotal(fw,ids_s,radio_f,redes_mov,traf_ids,wifi, siem, bluetoot
 	plt.xticks(rotation=90)
 	plt.ylabel("Number of records")
 	plt.xlabel("Date")
-	plt.title('Total time')
+	plt.title('Total time (Agrupación: '+str(step)+'s)')
 	plt.legend()
 	plt.savefig("totalTime.png", bbox_inches="tight", pad_inches = 0.3)
 	plt.close()
