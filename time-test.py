@@ -29,13 +29,8 @@ accessIP=[]
 mailIP=[]
 errorIP=[]
 
+all=[]
 
-### Salida CSV ###
-# open the file in the write mode
-f = open('ficheroALlLogs.csv', 'w')
-# create the csv writer
-writer = csv.writer(f)
-##################
 
 
 
@@ -101,8 +96,10 @@ def dateorder(file):
 
 			#########Logs para el fichero comun
 			lista2=[epochDate, "access_log", ip, linea[linea.find(']')+1:-1]]
+
 			# write a row to the csv file
-			writer.writerow(lista2)
+			all.append(lista2)
+
 
 
 		timeSort = sorted(timelist, key= lambda time : time[0])
@@ -168,7 +165,7 @@ def dateorder(file):
 			#########Logs para el fichero comun
 			lista2=[epochDate, "mail_log", ip, linea[linea.find('combo'):-1]]
 			# write a row to the csv file
-			writer.writerow(lista2)
+			all.append(lista2)
 
 		timeSort = sorted(timelist, key= lambda time : time[0])
 		timeSort2 = sorted(iplist, key= lambda time : time[0])
@@ -236,7 +233,7 @@ def dateorder(file):
 			except: 
 				lista2=[epochDate, "error_log", ip, linea[linea.find('] [')+2:-1]  ]
 			# write a row to the csv file
-			writer.writerow(lista2)
+			all.append(lista2)
 
 		timeSort = sorted(timelist, key= lambda time : time[0])
 		timeSort2 = sorted(iplist, key= lambda time : time[0])
@@ -401,10 +398,22 @@ def drawgraphicip(logType, timearray):
 	plt.savefig(logType +"ip.png", bbox_inches="tight", pad_inches = 0.3)
 	plt.close()
 
+def writefile():
+	### Salida CSV ###
+	# open the file in the write mode
+	f = open('ficheroAllLogs.csv', 'w')
+	# create the csv writer
+	writer = csv.writer(f)
+	allSorted = sorted(all, key= lambda time : time[0])
+	for i in range(0, len(all)):
+		writer.writerow(allSorted[i])
+	f.close()
+
 #Functions to call
 dateorder(1)
 dateorder(2)
 dateorder(3)
+writefile()
 
 drawgraphictime("access_log", accessT)
 drawgraphictime("mail_log", mailT)
@@ -417,10 +426,8 @@ drawgraphicip("error_log", errorIP)
 drawgrafictimetotal(accessT,mailT,errorT)
 
 # close the file
-f.close()
-df = pd.read_csv('ficheroALlLogs.csv', header=None, names=["Epoch Date", "Log Type", "IP Adress", "Log"])
+df = pd.read_csv('ficheroAllLogs.csv', header=None, names=["Epoch Date", "Log Type", "IP Adress", "Log"])
 df.to_csv('out.csv') #fichero final.
-f.close()
 #Se elimina el fichero que ya no es necesario
 remove('ficheroALlLogs.csv')
 
